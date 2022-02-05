@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>css anatomy pg 4</title>
+    <style>
+        p.big{
+            color: violet;
+            font-size: 15px;
+            width: 400px;
+         }
+        h1{
+            color: tomato;
+            font-size: 36px;
+            text-align: center;
+        }
+        .green{
+            color: greenyellow;
+            font-style: italic;
+        }
+        .pink,article{
+            color: hotpink;
+            font-style: inherit;
+        }
+        #idselector{
+            font-size: 56px;
+        }
+        article p{
+            color: lawngreen;
+        }
+        article > p{
+            color: lightcoral;
+        }
+    </style>
+</head>
+<BODY>
+    <h1>
+        CSS Anatomy
+    </h1>
+    <p>
+        Cascading Style Sheets is a style sheet language used for describing the presentation of a document 
+        written in a markup language such as HTML. 
+        CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript
+    </p>
+    <p class="big">
+        Cascading Style Sheets is a style sheet language used for describing the presentation of a document 
+        written in a markup language such as HTML. 
+        CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript 
+    </p>
+    <div class="green">India is my country.<span class="pink">All indians are my brthers and sisters.</span> <span>I love my country.</span></div>
+    <article id="idselector">Jai Hind.</article>
+    <article>
+        <p>paragraph is direct child of article</p>
+    </article>
+    <article>
+        <div>
+            <p>p is indirec child of article</p>
+        </div>
+    </article>
+</BODY>
