@@ -30,6 +30,11 @@
         article > p{
             color: lightcoral;
         }
+        #article1{
+            color: brown;
+            text-align: center;
+            font-size: 30px;
+        }
     </style>
 </head>
 <BODY>
@@ -48,12 +53,13 @@
     </p>
     <div class="green">India is my country.<span class="pink">All indians are my brthers and sisters.</span> <span>I love my country.</span></div>
     <article id="idselector">Jai Hind.</article>
-    <article>
+    <article id="article1">
+        Article 1
         <p>paragraph is direct child of article</p>
     </article>
     <article>
         <div>
-            <p>p is indirec child of article</p>
+            <p>p is indirec child of <article></article></p>
         </div>
     </article>
 </BODY>
